@@ -32,7 +32,7 @@ int main(){
 	}
 	
 	else if (choice == 1){
-		life += 10;
+		life = 10;
 		cout <<"You have 10 choices for finding the secret number between 1 and 100."<<endl;
 		cout <<endl;
 		
@@ -75,7 +75,7 @@ int main(){
 	}
 	
 	else if (choice == 2){
-		life += 7;
+		life = 7;
 		cout << "You have 7 choices for finding the secret number between 1 and 100."<<endl;
 		cout <<endl;
 		
@@ -115,7 +115,7 @@ int main(){
 	}
 	
 	else if (choice == 3){
-		life += 5;
+		life = 5;
 		cout << "You have 5 choices for finding the secret number between 1 and 100."<<endl;
 		cout <<endl;
 		
